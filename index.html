@@ -19,12 +19,12 @@
             <label for="menu-toggle" class="menu-icon">&#9776;</label> <ul class="nav-links">
                 <li><a href="#" class="active-link">Home</a></li>
                 <li><a href="#">About</a></li>
-                <li><a href="#">Floor Plans</a></li>
-                <li><a href="#">Amenities</a></li>
-                <li><a href="#">Gallery</a></li>
+                <li><a href="#floorplans">Floor Plans</a></li>
+                <li><a href="#amenities">Amenities</a></li>
+                <li><a href="#gallery">Gallery</a></li>
                 <li><a href="#">Specifications</a></li>
                 <li><a href="#">Projects</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#footer">Contact</a></li>
             </ul>
         </nav>
         <div class="logo-container right">
@@ -84,7 +84,7 @@
             </div>
         </div>
     </section>
-     <section class="plans-section">
+     <section class="plans-section" id="floorplans">
         <div class="plans-header">
             <div class="plans-logo-title">
                 <img src="images/hed.png" alt="Candeur Crescent Logo" class="plans-logo">
@@ -138,7 +138,7 @@
             </a>
         </div>
     </section>
-    <section class="amenities-section">        
+    <section class="amenities-section" id="amenities">        
         <div class="background-overlay"></div>        
         <div class="amenities-container">            
             <div class="amenities-header">
@@ -276,7 +276,7 @@
             </div>          
         </div>
     </section>
-     <section class="gallery-section">
+     <section class="gallery-section" id="gallery">
         
         <div class="gallery-header">
             <div class="plans-logo-title">
@@ -324,8 +324,8 @@
             </a>
         </div>
         
-    </section>
-      <footer class="neighbourhood">
+    </section >
+      <footer class="neighbourhood" id="footer">
      <div class="footer-logo-title">
                 <img src="images/hed.png" alt="Candeur Crescent Logo" class="plans-logo">
                 <div class="footer-title-text">
@@ -412,8 +412,8 @@
  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
 <script>
     AOS.init({
-        duration: 1000, // Animation duration in milliseconds
-        once: true // Animation happens only once when in view
+        duration: 1000, 
+        once: true 
     });
 </script> 
 </body>
