@@ -1097,7 +1097,6 @@ ease-in-out;
       box-shadow: 0 4px 15px rgba(0,0,0,0.5);
     }
 
-    /* Appointment Bar */
     .appointment-bar {
       margin-top: 3rem;
       background: #000;
@@ -1218,7 +1217,6 @@ ease-in-out;
     box-shadow: none;
   }
 
-  /* Active Mobile Menu State */
   .menu-toggle:checked ~ .nav-links {
     max-height: 400px;
     padding: 10px 0;
@@ -1344,18 +1342,37 @@ ease-in-out;
               padding: 30px;
         max-width: 100%;
         max-height: max-content;
-        display:none;
+        display:block;
     }
-    
+    .gallery-display-area{
+        width: 100%;
+    }
+    .video-carousel-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .video-item{
+         display: flex;
+        flex-direction: column;
+    }
+    .youtube{
+        margin: 9px;
+        width: 100%;
+    }
     .section-title {
         font-size: 1.6em;
     }   
   
 }
-/* @media (max-width: 600px) {
+@media (max-width: 600px) {
   .plans-logo-title {
-    flex-direction: column;
-    gap: 6px;
+    
+            flex-direction: column;
+        gap: 6px;
+        display: flex
+;
+        margin-left: auto;
+        margin-right: auto;
   }
   .project-name {
     font-size: 18px;
@@ -1363,6 +1380,7 @@ ease-in-out;
   .gallery-tabs {
     flex-direction: column;
     gap: 10px;
+    display:none;
   }
   .tab-button {
     width: 100%;
@@ -1375,7 +1393,7 @@ ease-in-out;
     font-size: 14px;
     padding: 8px 14px;
   }
-} */
+}
 
 
 
