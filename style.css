@@ -1362,6 +1362,9 @@ ease-in-out;
     .section-title {
         font-size: 1.6em;
     }   
+    .nav-arrow{
+        display: none;
+    }
   
 }
 @media (max-width: 600px) {
