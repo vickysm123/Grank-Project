@@ -573,9 +573,9 @@ body {
   align-items: center;
   gap: 10px;
   background-color: #fff;
-  border: 1px solid #ccc;
+  border: 1px solid #23333d;
   padding: 12px 30px;
-  border-radius: 25px; /* Pill shape */
+  border-radius: 25px;
   font-size: 1.1em;
   font-weight: 500;
   color: #23333d;
@@ -793,7 +793,7 @@ body {
   align-items: center;
   gap: 10px;
   background-color: #fff;
-  border: 1px solid #ccc;
+  border: 1px solid #23333d;
   padding: 10px 25px;
   border-radius: 25px;
   font-size: 0.9em;
