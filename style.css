@@ -1351,6 +1351,9 @@ body {
   }
 }
 @media (max-width: 600px) {
+    .back-to-top {
+        display: none;
+    }
   .plans-logo-title {
     flex-direction: column;
     gap: 6px;
@@ -1437,6 +1440,9 @@ body {
 }
 
 @media (max-width: 576px) {
+      .back-to-top {
+        display: none;
+    }
   .amenities-section {
     padding: 30px 0;
   }
