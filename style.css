@@ -309,7 +309,7 @@ body {
   margin-bottom: 40px;
 }
 .section-title span {
-  color: #000;
+  color: #23333d;
 }
 .welcome-content {
   display: flex;
@@ -323,10 +323,10 @@ body {
 .outlined-text-stroke {
   color: transparent;
   -webkit-text-stroke-width: 1.5px;
-  -webkit-text-stroke-color: #3e3e3e;
+  -webkit-text-stroke-color: #23333d;
 
   text-stroke-width: 1.5px;
-  text-stroke-color: #3e3e3e;
+  text-stroke-color: #23333d;
 
   font-family: "Arial Black", sans-serif;
   font-size: 65px;
@@ -364,7 +364,7 @@ body {
 
 .info-block .rera {
   font-weight: 700;
-  color: #000;
+  color: #23333d;
 }
 
 .enquire-btn {
@@ -446,7 +446,7 @@ body {
 .plans-title-text .project-name {
   font-size: 18px;
   font-weight: 900;
-  color: #000;
+  color: #23333d;
   text-transform: uppercase;
   margin-bottom: 3px;
 }
@@ -636,7 +636,7 @@ body {
 
 .tab-button {
   padding: 10px 20px;
-  background-color: #333;
+  background-color: #23333db0;
   color: #fff;
   font-size: 0.9em;
   font-weight: 500;
@@ -656,13 +656,13 @@ body {
 }
 
 .tab-button.active {
-  background-color: #000;
+  background-color: #23333d;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
 }
 
 .gallery-display-area {
   width: 100%;
-  background-color: #1a1a1a;
+  background-color: #23333d;
   border-radius: 8px;
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
   padding: 40px 30px;
@@ -1072,8 +1072,8 @@ body {
 
 .appointment-bar {
   margin-top: 3rem;
-  background: #000;
-  border: 1px solid #444;
+  background: #23333d;
+  border: 1px solid #23333d;
   border-radius: 40px;
   padding: 1rem 2rem;
   display: flex;
